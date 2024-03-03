@@ -1,0 +1,142 @@
+body {
+    background: linear-gradient(90deg, rgb(72, 81, 90), rgb(178, 183, 189), rgb(117, 112, 119));
+}
+
+/*
+    Pour le formulaire
+*/
+.container_formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(10, 31, 216, 0.664), rgb(131, 11, 211, 0.664), rgb(0, 128, 255, 0.664));
+    height: 40vh;
+    width: 85vw;
+    border-radius: 20px;
+}
+
+.formulaire h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.formulaire form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulaire input[type=number] {
+    border-radius: 10px;
+    height: 15px;
+    width: 100px;
+    padding: 10px;margin: 10px;
+}
+
+.formulaire .calculer {
+    background-color: blue;
+    font-size: 20px;
+    color: black;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.changer {
+    background-color: rgb(18, 221, 211);
+    font-size: 20px;
+    color: black;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/*
+    Pour le tableau
+*/
+
+.container_tableau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tableau{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(10, 30, 216), rgb(131, 11, 211), rgb(0, 128, 255));
+    border-radius: 20px;
+} 
+
+.tableau table {
+    width: 80vw;
+    border-radius: 20px;
+}
+
+.tableau table .titre td {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.tableau table td {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tableau table .impaire {
+    background: linear-gradient(90deg, rgb(54, 241, 54), rgb(99, 216, 144), green);
+}
+
+.tableau table .paire {
+    background: linear-gradient(90deg, rgb(223, 226, 28), rgb(156, 201, 85), rgb(235, 231, 26));
+}
+
+.modifier a {
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 30px;
+}
+
+.modifier {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(0, 238, 255);
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 50px;
+    height: 30px;
+}
+
+.supprimer a {
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 30px;
+}
+
+.supprimer {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 50px;
+    height: 30px;
+}
