@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: gray;
+    text-align: center;
+    height: 8vh;
+    width: 100%;
+    padding-top: 10px;
+    color: white;
+}
+
+body {
+    background: rgb(179, 179, 179);
+}
+
+.principal_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.registre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(124, 124, 124);
+    height: 45vh;
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.registre h1{
+    color: black;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.registre form label{
+    font-size: 18px;
+    color: white; 
+    margin: 10px;
+}
+
+.registre form .enter{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.registre form .submit{
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+    font-size: 18px;
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+}
+.registre form .submit:hover{
+    background-color: white;
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+}
+.principal .navigator {
+    background-color: gray;
+    width: 15vw;
+    text-align: left;
+}
+.principal .navigator li{
+    list-style: none;
+    height: 30px;
+    padding: 10px;
+}
+.principal .navigator li:hover{
+    background-color: rgb(151, 150, 150);
+}
+.principal .navigator a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 15vw;
+}

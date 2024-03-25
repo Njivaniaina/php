@@ -1,0 +1,120 @@
+ body{
+   background-color: rgb(255, 255, 255);
+   margin: 0px;
+ }
+
+ header {
+    background-color: rgb(176, 193, 219);
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+ }
+
+ .body1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+ }
+
+ .formulaire_login {
+    background-color: rgb(165, 169, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(169, 184, 255);
+ }
+ 
+ .formulaire_login form {
+    text-align: center;
+ }
+
+ .formulaire_login h1 {
+   color: black;
+ }
+
+ .formulaire_login form table {
+   text-align: left;
+ }
+
+ .formulaire_login form label {
+   color: rgb(255, 255, 255);
+   font-size: 18px;
+ }
+
+  .formulaire_login form .enter{
+   height: 30px;
+   width: 200px;
+   border-radius: 10px;
+   margin: 5px;
+  }
+
+  .formulaire_login form .authentifier {
+   margin-top: 10px;
+   border-radius: 5px;
+   height: 3Opx;
+   width: 140px;
+   font-size: 20px;
+   background-color: rgb(223, 227, 231);
+  }
+
+  .formulaire_login form .authentifier:hover{
+   background-color: gray;
+  }
+
+  .inscription {
+   color: white;
+   font-size: 16px;
+  }
+
+  .inscription a {
+   text-decoration: none;
+   color: gray;
+  }
+
+  /*
+      Lister
+  */
+
+.main {
+   display: flex;
+   flex-direction: row;
+}
+
+.navigation {
+   width: 15vw;
+   height: 100vh;
+   background-color: aquamarine;
+   margin-right: 10px;
+   border-radius: 3px;
+}
+
+.navigation li {
+   padding-top: 10px;
+   height: 50px;
+   width: 15vw;
+   list-style: none;
+   text-align: center;
+}
+
+.navigation li:hover {
+   background-color: rgb(92, 92, 238);
+}
+
+.navigation a {
+   text-decoration: none;
+   text-align: left;
+   font-size: 22px;
+   color: rgb(48, 165, 211);
+}
+
+.list {
+   width: 85vh;
+   height: 100%;
+}
+  
